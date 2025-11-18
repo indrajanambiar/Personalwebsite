@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indraja Nambiar | AI Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" aria-label="Indraja Nambiar home">
+                <svg class="logo-svg" width="52" height="52" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="logoCircleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#f97316"/>
+                            <stop offset="40%" stop-color="#ec4899"/>
+                            <stop offset="80%" stop-color="#6366f1"/>
+                            <stop offset="100%" stop-color="#22c55e"/>
+                        </linearGradient>
+                    </defs>
+                    <rect x="8" y="8" width="36" height="36" rx="12" ry="12" fill="url(#logoCircleGradient)" />
+                    <text x="26" y="30" text-anchor="middle" dominant-baseline="middle"
+                          font-family="Poppins, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+                          font-size="15" font-weight="700" letter-spacing="5" fill="#f8fafc">
+                        INI
+                    </text>
+                </svg>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="animated-bg"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, I'm</span>
+                    <span class="name">Indraja Nambiar</span>
+                    <span class="role">AI Developer</span>
+                </h1>
+                <p class="hero-description">
+                    I'm an AI Developer obsessed with using LLMs, RAG, and agentic AI to turn boring, manual workflows into smart,
+                    automated systems. With tools like OpenAI GPT, LangChain, and LangGraph, I build document-savvy chatbots and
+                    automations that actually feel intelligent and useful, not just “AI for the hype”.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.indrajanambiar.com" target="_blank" class="social-link" aria-label="Portfolio Website"><i class="fas fa-globe"></i></a>
+                    <a href="mailto:nambiarindraja@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <div class="code-snippet">
+                        <div class="code-line"><span class="code-keyword">def</span> <span class="code-function">create_ai_solution</span>():</div>
+                        <div class="code-line">    <span class="code-keyword">return</span> <span class="code-string">"Innovation"</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm an AI Developer focusing on <strong>agentic AI</strong> and <strong>Retrieval-Augmented Generation (RAG)</strong>,
+                        where Large Language Models (LLMs) are used as reasoning engines that can call tools, work with external data,
+                        and drive end‑to‑end workflows instead of just answering simple prompts.
+                    </p>
+                    <p>
+                        I work with different LLM providers (including Azure OpenAI and others) and use <strong>LangChain</strong> and
+                        <strong>LangGraph</strong> to build multi-step agents, document intelligence pipelines, and chatbots for real
+                        products—especially in insurance and document-heavy domains. My goal is to design reliable, explainable AI
+                        systems that teams can actually use in day-to-day work.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="8">0</div>
+                            <div class="stat-label">AI Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-label">Core Skills</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Internships</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Programming & Libraries</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Pandas, NumPy</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">AI, NLP & Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>PyTorch, Keras</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Scikit-learn, NLP / NLU</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>LangChain, LangGraph</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-search"></i>
+                            <span>Retrieval-Augmented Generation (RAG)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Agentic AI & LLM Orchestration</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Cloud, Tools & Visualization</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Azure Functions & Blob Storage</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>Power BI, Tableau, Excel</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Driven Insurance Document Automation</h3>
+                        <p class="project-description">
+                            Developed a full automation suite using Azure OpenAI and LangGraph to process complex insurance documents.
+                            Built Policy Check Bot and COI Bot to automate validation, classification, and data extraction workflows
+                            with OCR, business rules, and archival in Azure Blob Storage.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Azure OpenAI</span>
+                            <span class="tag">LangChain / LangGraph</span>
+                            <span class="tag">RAG</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Broker Copilot</h3>
+                        <p class="project-description">
+                            Spearheaded prompt architecture for an internal AI application that extracts complex data from
+                            insurance documents using LLMs, Chain-of-Thought reasoning, and Few-Shot Learning to maximize accuracy.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">LLMs</span>
+                            <span class="tag">Prompt Engineering</span>
+                            <span class="tag">Chain-of-Thought</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Academic AI Projects</h3>
+                        <p class="project-description">
+                            Worked on DocumentAI Assistant for answering questions from uploaded documents, Fake News Detection
+                            with 90.5% accuracy, and a Department Chatbot for the Rubber Board Department using sequential models.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">LangChain</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Multi-Agent Sales Support Chatbot</h3>
+                        <p class="project-description">
+                            Designed a chatbot using RAG and agentic AI patterns with multiple collaborating agents to assist sales teams
+                            with product questions, policy lookups, and document-grounded answers in real time.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">RAG</span>
+                            <span class="tag">Agentic AI</span>
+                            <span class="tag">Multi-Agent</span>
+                            <span class="tag">LangChain</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Chatbot for Dashboard Generation</h3>
+                        <p class="project-description">
+                            Built an AI assistant that turns natural language business questions into interactive dashboards by generating
+                            queries, selecting relevant metrics, and guiding users through insights using an LLM-powered interface.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">LLMs</span>
+                            <span class="tag">Data Analytics</span>
+                            <span class="tag">Dashboards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jul 2023 – Present</div>
+                        <h3 class="timeline-title">Junior AI Developer</h3>
+                        <p class="timeline-company">PixDynamics, Kochi, Kerala</p>
+                        <p class="timeline-description">
+                            Designing AI-driven document analysis tools and automation pipelines using LangChain, LangGraph,
+                            Azure OpenAI, and Azure Functions for insurance document workflows and chatbot systems.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2023 – Jun 2023</div>
+                        <h3 class="timeline-title">AI Intern</h3>
+                        <p class="timeline-company">Nucore Software Solutions, Kozhikode, Kerala</p>
+                        <p class="timeline-description">
+                            Developed a Rasa-based chatbot to automate and streamline internal company processes and workflows.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Dec 2020 – Apr 2021</div>
+                        <h3 class="timeline-title">Data Analyst Intern</h3>
+                        <p class="timeline-company">Forfit Technology Pvt. Ltd, Bengaluru, India</p>
+                        <p class="timeline-description">
+                            Built a machine learning model to predict the creditworthiness of loan applicants and support
+                            data-driven lending decisions.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 – 2023</div>
+                        <h3 class="timeline-title">M.Sc. in Data Analytics</h3>
+                        <p class="timeline-company">Digital University Kerala, Thiruvananthapuram</p>
+                        <p class="timeline-description">
+                            Specialized in data analytics, machine learning, and AI with hands-on projects in NLP,
+                            document intelligence, and predictive modeling.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 – 2021</div>
+                        <h3 class="timeline-title">B.Voc in Business Process & Data Analytics</h3>
+                        <p class="timeline-company">Cochin University of Science and Technology, Kochi</p>
+                        <p class="timeline-description">
+                            Built strong foundations in analytics, statistics, and business processes with exposure to
+                            real-world data projects and tools.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-card">
+                    <div class="resume-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3 class="resume-title">Download My Resume</h3>
+                    <p class="resume-description">
+                        View or download my complete resume to learn more about my experience, 
+                        education, and skills in detail.
+                    </p>
+                    <div class="resume-buttons">
+                        <a href="Indraja Nambiar - Resume.docx" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="Indraja Nambiar - Resume.docx" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-eye"></i> View Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>
+                        I'm always open to discussing new projects, creative ideas, or opportunities 
+                        to be part of your vision. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>nambiarindraja@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 70126 82100</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Indraprastham (HO), Perambra P.O., Kozhikode, Kerala 673525, India</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Indraja Nambiar. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
